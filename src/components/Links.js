@@ -1,6 +1,13 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
+/**
+ * Defines search, news, images and videos links below search bar for the application.
+ *
+ *
+ * @returns {JSX.Element}
+ */
+
 const links = [
 	{ url: "/search", text: "🔎 All" },
 	{ url: "/news", text: "📰 News" },

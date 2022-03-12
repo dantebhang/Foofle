@@ -2,6 +2,13 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Search from "./Search";
 
+/**
+ * Defines Foofle icon link at top of page along with ability to set dark or light mode for application.
+ *
+ *
+ * @returns {JSX.Element}
+ */
+
 function Navbar({ darkTheme, setDarkTheme }) {
 	return (
 		<div className="p-5 pb-0 flex flex-wrap sm:justify-between justify-center items-center border-b dark:border-gray-700 border-gray-200">

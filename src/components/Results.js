@@ -5,12 +5,20 @@ import ReactPlayer from "react-player";
 import { useResultContext } from "../contexts/ResultContextProvider";
 import Loading from "./Loading";
 
+/**
+ * Defines all results when user inputs into search with application of useContext() hook.
+ *
+ *
+ * @returns {JSX.Element}
+ */
+
 function Results() {
 	//exporting everything inside of result context as a hook
 	const { results, isLoading, getResults, searchTerm } = useResultContext();
 	//give routes of /images, /videos, /news
 	const location = useLocation();
 
+	//component will reload every time the path or search term changes
 	useEffect(() => {
 		if (searchTerm) {
 			if (location.pathname === "/videos") {
@@ -23,6 +31,7 @@ function Results() {
 
 	if (isLoading) return <Loading />;
 
+	//switch statement to render different results for each path
 	switch (location.pathname) {
 		case "/search":
 			return (

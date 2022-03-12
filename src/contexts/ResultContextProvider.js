@@ -10,7 +10,7 @@ export const ResultContextProvider = ({ children }) => {
 	const [isLoading, setIsLoading] = useState(false);
 	const [searchTerm, setSearchTerm] = useState("");
 
-	// for /videos /search or /images path
+	// for /videos /news /search or /images path
 	const getResults = async (urlType) => {
 		setIsLoading(true);
 
@@ -45,4 +45,5 @@ export const ResultContextProvider = ({ children }) => {
 	);
 };
 
+//useContext is a hook that provides a way to pass data through the component tree without manually passing props down through each nested component
 export const useResultContext = () => useContext(ResultContext);

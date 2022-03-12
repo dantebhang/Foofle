@@ -4,11 +4,19 @@ import { useDebounce } from "use-debounce";
 import { useResultContext } from "../contexts/ResultContextProvider";
 import Links from "./Links";
 
+/**
+ * Defines search bar at top of application to debounce and set text of user input utilizing the useContext() hook.
+ *
+ *
+ * @returns {JSX.Element}
+ */
+
 function Search() {
 	const [text, setText] = useState("");
 	const { setSearchTerm } = useResultContext();
 	const [debouncedValue] = useDebounce(text, 300);
 
+	//debounce delays a function to give user time to write out a searchTerm so code is only triggered once per user input
 	useEffect(() => {
 		if (debouncedValue) {
 			setSearchTerm(debouncedValue);

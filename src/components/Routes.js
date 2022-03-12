@@ -1,6 +1,14 @@
 import React from "react";
 import { Switch, Route, Redirect } from "react-router-dom";
 import Results from "./Results";
+import NotFound from "./NotFound";
+
+/**
+ * Defines all the routes for the application.
+ *
+ *
+ * @returns {JSX.Element}
+ */
 
 function Routes() {
 	return (
@@ -12,6 +20,9 @@ function Routes() {
 				<Route exact path={["/search", "/images", "/news", "/videos"]}>
 					<Results />
 				</Route>
+        <Route>
+          <NotFound />
+        </Route>
 			</Switch>
 		</div>
 	);
