@@ -34,7 +34,7 @@ Feel free to see a live demo [here.](https://zen-raman-c9a195.netlify.app/search
 - Video results fetched from the API will be displayed as videos. 
 
 ## Comments
-The focus on this project was to be more familiar with the useContext hook for state management and API fetching. I was curious to know how it differs from Redux and I enjoyed the simplicity of the built in hook as it took less lines of code and in this case, did not need a reducer. This is also the first project where I implemented a dark more with the help of Tailwind CSS which was also a very simple take. ALthough the UI is fairly simple, I wanted to focus more on data fetching and writing clean code with comments for me to refer back to. 
+The focus on this project was to be more familiar with the useContext hook for state management and API fetching. I was curious to know how it differs from Redux and I enjoyed the simplicity of the built in hook as it took less lines of code and in this case, did not need a reducer. This is also the first project where I implemented a dark mode with the help of Tailwind CSS which was also a very simple take. Although the UI is fairly simple, I wanted to focus more on data fetching and writing clean code with comments for me to refer back to. 
 
 ## Technology and Tools
 
