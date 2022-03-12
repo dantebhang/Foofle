@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# Foofle
+> A simple search engine to display web pages, news, images and videos based on user input with option for light or dark mode themes. 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description 
+This responsive application was built using React best practices while utilizing the useContext hook for API state management. Tailwind CSS was implemented to create the UI with an optional dark mode theme. Data was fetched using the [Google Search API](https://developers.google.com/custom-search/). 
 
-## Available Scripts
+Feel free to see a live demo [here.](https://zen-raman-c9a195.netlify.app/search)
 
-In the project directory, you can run:
+## Installation
+1. Fork/Clone this repository. 
+2. Run `npm install` to install all project dependencies. 
+3. Run `npm start` to launch project locally. 
 
-### `npm start`
+## Screenshots and Details 
+**Homepage**
+- The homepage is displayed at `/` route.
+- A home icon and search bar is displayed at the top left of the page for a user to go back to home or enter a search term. 
+- A button to toggle between dark or light mode is placed at the top right of the page. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**Search**
+- The search page is displayed at `/search` after the user makes a search request. 
+- Web page results fetched from the API will be displayed as links. 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**Images** 
+- The image page is displayed at `/images` after the user makes a search request and navigates to the image link or route. 
+- Image results fetched from the API will be displayed as images. 
 
-### `npm test`
+**News**
+- The news page is displayed at `/news` after the user makes a search request and navigates to the news link or route. 
+- News results fetched from the API will be displayed as links.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Videos**
+- The videos page is displayed at `/videos` after the user makes a search request and navigates to the videos link or route. 
+- Video results fetched from the API will be displayed as videos. 
 
-### `npm run build`
+## Comments
+The focus on this project was to be more familiar with the useContext hook for state management and API fetching. I was curious to know how it differs from Redux and I enjoyed the simplicity of the built in hook as it took less lines of code and in this case, did not need a reducer. This is also the first project where I implemented a dark more with the help of Tailwind CSS which was also a very simple take. ALthough the UI is fairly simple, I wanted to focus more on data fetching and writing clean code with comments for me to refer back to. 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Technology and Tools
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+React, useContext hook, useDebounce hook, Tailwind CSS, JavaScript, HTML, CSS, react-player, react-loader-spinner
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Deployed on Netlify** 
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
