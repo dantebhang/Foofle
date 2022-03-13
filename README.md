@@ -2,7 +2,7 @@
 > A simple search engine to display web pages, news, images and videos based on user input with option for light or dark mode theme. 
 
 ## Description 
-This responsive application was built using React best practices while utilizing the useContext hook for API state management. Tailwind CSS was implemented to create the UI with an optional dark mode theme. Data was fetched using the [Google Search API](https://developers.google.com/custom-search/). 
+This responsive application was built using React best practices while utilizing the useContext hook for API state management. Tailwind CSS was implemented to create the UI with an optional dark mode theme. Data was fetched using [Google Search API](https://developers.google.com/custom-search/). 
 
 Feel free to see a live demo [here.](https://zen-raman-c9a195.netlify.app/search)
 
