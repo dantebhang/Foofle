@@ -14,7 +14,7 @@ Feel free to see a live demo [here.](https://zen-raman-c9a195.netlify.app/search
 ## Screenshots and Details 
 **Homepage**
 - The homepage is displayed at `/` route.
-- A home icon and search bar is displayed at the top left of the page for a user to go back to home or enter a search term. 
+- A home icon and search bar is displayed at the top left of the page for a user to go back to home with an adjacent search bar. 
 - A button to toggle between dark or light mode is placed at the top right of the page. 
 
 
