@@ -1,5 +1,5 @@
 # Foofle
-> A simple search engine to display web pages, news, images and videos based on user input with option for light or dark mode themes. 
+> A simple search engine to display web pages, news, images and videos based on user input with option for light or dark mode theme. 
 
 ## Description 
 This responsive application was built using React best practices while utilizing the useContext hook for API state management. Tailwind CSS was implemented to create the UI with an optional dark mode theme. Data was fetched using the [Google Search API](https://developers.google.com/custom-search/). 
