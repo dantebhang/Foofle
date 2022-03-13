@@ -24,27 +24,27 @@ https://user-images.githubusercontent.com/87205105/158073051-2c0518b7-9a40-425d-
 
 **Search**
 - The search page is displayed at `/search` after the user makes a search request. 
-- Web page results fetched from the API will be displayed as links. 
+- Web page results fetched from the API will be displayed as links under the *All* tab.
 
 <img width="1071" alt="foofle_search" src="https://user-images.githubusercontent.com/87205105/158073054-b5e84248-4ce8-4ca0-87fa-4fec5756d252.PNG">
 
 **Images** 
 - The image page is displayed at `/images` after the user makes a search request and navigates to the image link or route. 
-- Image results fetched from the API will be displayed as images. 
+- Image results fetched from the API will be displayed as images under the *Images* tab.
 
 <img width="1076" alt="foofle_images" src="https://user-images.githubusercontent.com/87205105/158073073-68e42de6-c4b6-4666-9e66-86d9cd734f72.PNG">
 
 
 **News**
 - The news page is displayed at `/news` after the user makes a search request and navigates to the news link or route. 
-- News results fetched from the API will be displayed as links.
+- News results fetched from the API will be displayed as links under the *News* tab.
 
 <img width="1074" alt="foofle_news" src="https://user-images.githubusercontent.com/87205105/158073081-e67b5b8d-d901-489a-8f0a-94d7447c42e9.PNG">
 
 
 **Videos**
 - The videos page is displayed at `/videos` after the user makes a search request and navigates to the videos link or route. 
-- Video results fetched from the API will be displayed as videos. 
+- Video results fetched from the API will be displayed as videos under the *Videos* tab.
 
 <img width="1074" alt="foofle_videos" src="https://user-images.githubusercontent.com/87205105/158073089-ecf9cb89-adc3-4d69-8dfd-40806d232e58.PNG">
 
