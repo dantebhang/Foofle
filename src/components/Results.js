@@ -47,9 +47,9 @@ function Results() {
 								</p>
 							</a>
 							<p>
-								{description.length > 100
+								{description && (description.length > 100
 									? description.substring(0, 100) + "..."
-									: description}
+									: description)}
 							</p>
 						</div>
 					))}
@@ -75,10 +75,11 @@ function Results() {
 		case "/news":
 			return (
 				<div className="flex flex-wrap justify-between space-y-6 sm:px-56 items-center">
-					{results?.map(({ links, id, source, title }) => (
+					{results?.map(({ links, id, source, title }, index) => (
 						<div key={id} className="md:w-2/5 w-full">
 							<a
 								href={links?.[0].href}
+								key={index}
 								target="_blank"
 								rel="noreferrer"
 								className="hover:underline"
